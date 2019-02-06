@@ -6,12 +6,10 @@
 
 html {
   box-sizing: border-box;
-
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
   font-family: "PT Sans", sans-serif;
 }
 
@@ -25,9 +23,13 @@ html {
 }
 
 .banner {
-
+  position: relative;
+  max-height: 40%;
 }
 
 .banner-content {
-
+  position: absolute;
+  bottom: 5px;
+  color: #fff;
+  overflow: hidden;
 }
