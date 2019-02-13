@@ -30,7 +30,8 @@ html {
 
 .banner-content {
   position: absolute;
-  bottom: 5px;
-  left: auto;
+  bottom: 0;
+  left: 0;
   color: #fff;
+  width: 100%;
 }
